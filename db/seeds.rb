@@ -8,6 +8,6 @@
 #
 Post.destroy_all
 
-Post.create(title:"Post0", content:"This is my Post0", votes:0)
-Post.create(title:"Post1", content:"This is my Post1", votes:1)
-Post.create(title:"Post2", content:"This is my Post2", votes:2)
+Post.create(title:"Post", content:"This is my Post", votes:0)
+Post.create(title:"Post2", content:"This is my Post2", votes:1)
+Post.create(title:"Post3", content:"This is my Post3", votes:2)

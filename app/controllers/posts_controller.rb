@@ -3,7 +3,7 @@ class PostsController < ApplicationController
 
   # GET /posts
   def index
-    @posts = Post.all
+    @posts = Post.all.sort_by{|e|e.votes}.reverse
 
     render json: @posts
   end
